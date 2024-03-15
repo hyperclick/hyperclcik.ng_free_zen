@@ -1,0 +1,30 @@
+header{
+    padding: 3px;
+}
+
+header .logo {
+    
+    width:102px;
+    height:40px
+}
+
+header .row{
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .row .col {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* column-gap: 10px; */
+    /* justify-content: space-around; */
+}
+header .row .col>* {
+    
+    margin: 0 5px;
+}
+
+header .row select {
+    border-radius: 5px;
+}
