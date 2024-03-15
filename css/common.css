@@ -1,3 +1,8 @@
+.container{
+    margin: 0 10%;
+}
+
+
 header{
     padding: 3px;
 }
@@ -27,4 +32,5 @@ header .row .col>* {
 
 header .row select {
     border-radius: 5px;
+    height: 2.5em;
 }
